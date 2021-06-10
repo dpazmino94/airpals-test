@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/airpals-test/static/css/main.1a4a5561.chunk.css",
+    "main.js": "/airpals-test/static/js/main.97b6dd2d.chunk.js",
+    "main.js.map": "/airpals-test/static/js/main.97b6dd2d.chunk.js.map",
+    "runtime-main.js": "/airpals-test/static/js/runtime-main.6949cf3e.js",
+    "runtime-main.js.map": "/airpals-test/static/js/runtime-main.6949cf3e.js.map",
+    "static/css/2.32a445b4.chunk.css": "/airpals-test/static/css/2.32a445b4.chunk.css",
+    "static/js/2.d876c48d.chunk.js": "/airpals-test/static/js/2.d876c48d.chunk.js",
+    "static/js/2.d876c48d.chunk.js.map": "/airpals-test/static/js/2.d876c48d.chunk.js.map",
+    "index.html": "/airpals-test/index.html",
+    "static/css/2.32a445b4.chunk.css.map": "/airpals-test/static/css/2.32a445b4.chunk.css.map",
+    "static/css/main.1a4a5561.chunk.css.map": "/airpals-test/static/css/main.1a4a5561.chunk.css.map",
+    "static/js/2.d876c48d.chunk.js.LICENSE.txt": "/airpals-test/static/js/2.d876c48d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/airpals-test/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6949cf3e.js",
+    "static/css/2.32a445b4.chunk.css",
+    "static/js/2.d876c48d.chunk.js",
+    "static/css/main.1a4a5561.chunk.css",
+    "static/js/main.97b6dd2d.chunk.js"
+  ]
+}
