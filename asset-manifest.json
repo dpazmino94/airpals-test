@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/airpals-test/static/css/main.1a4a5561.chunk.css",
-    "main.js": "/airpals-test/static/js/main.97b6dd2d.chunk.js",
-    "main.js.map": "/airpals-test/static/js/main.97b6dd2d.chunk.js.map",
+    "main.js": "/airpals-test/static/js/main.a902b699.chunk.js",
+    "main.js.map": "/airpals-test/static/js/main.a902b699.chunk.js.map",
     "runtime-main.js": "/airpals-test/static/js/runtime-main.6949cf3e.js",
     "runtime-main.js.map": "/airpals-test/static/js/runtime-main.6949cf3e.js.map",
     "static/css/2.32a445b4.chunk.css": "/airpals-test/static/css/2.32a445b4.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.32a445b4.chunk.css",
     "static/js/2.d876c48d.chunk.js",
     "static/css/main.1a4a5561.chunk.css",
-    "static/js/main.97b6dd2d.chunk.js"
+    "static/js/main.a902b699.chunk.js"
   ]
 }
