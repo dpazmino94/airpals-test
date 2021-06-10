@@ -7,14 +7,13 @@ import Fade from '@material-ui/core/Fade';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 
-
-
 const ModalZipCode = ({ open, handleClose, modalTitle, modalMessage }) => {
     const useStyles = makeStyles((theme) => ({
         modal: {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
+            padding: '0 36%',
         },
         paper: {
             backgroundColor: theme.palette.background.paper,
@@ -29,9 +28,6 @@ const ModalZipCode = ({ open, handleClose, modalTitle, modalMessage }) => {
 
     return (
         <div>
-            {/* <button type="button" onClick={openModal}>
-                react-transition-group
-          </button> */}
             <Modal
                 aria-labelledby="transition-modal-title"
                 aria-describedby="transition-modal-description"
@@ -47,13 +43,20 @@ const ModalZipCode = ({ open, handleClose, modalTitle, modalMessage }) => {
                 <Fade in={open}>
                     <div className={classes.paper}>
                         <div className='close_button_container'>
-                            <IconButton color="black" onClick={handleClose} component="span">
+                            <IconButton color="default" onClick={handleClose} component="span">
                                 <CloseIcon />
                             </IconButton>
                         </div>
-                        <h2 id="transition-modal-title">{modalTitle}</h2>
-                        <p id="transition-modal-description">{modalMessage}</p>
-                        <div className="modal_button">UNDERSTOOD</div>
+                        <div className="modal_text_container">
+                            <h2 id="transition-modal-title">{modalTitle}</h2>
+                            {
+                                modalMessage.map((value, index) => {
+                                    return(<p key={index} id="transition-modal-description">{value}</p>) 
+                                })
+                            }
+                            <div className="modal_button" onClick={handleClose} >UNDERSTOOD</div>
+
+                        </div>
                     </div>
                 </Fade>
             </Modal>
