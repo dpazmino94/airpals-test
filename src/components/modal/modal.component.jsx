@@ -55,7 +55,6 @@ const ModalZipCode = ({ open, handleClose, modalTitle, modalMessage }) => {
                                 })
                             }
                             <div className="modal_button" onClick={handleClose} >UNDERSTOOD</div>
-
                         </div>
                     </div>
                 </Fade>
