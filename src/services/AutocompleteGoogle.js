@@ -63,10 +63,9 @@ const validateZipcode = (placeId) => {
                     if (entry.types?.[0] === "postal_code") {
                         postcode = entry.long_name
                         resolve(VALID_ZIP_CODES.indexOf(postcode) > -1)
-                    } else {
-                        resolve(false);
-                    }
+                    } 
                 });
+                resolve(false);
             }
         );
     }));
